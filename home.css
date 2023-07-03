@@ -1,0 +1,155 @@
+:root{
+    --darkblue: #000001;
+    --lightgreen: #43ea7e;
+    --gray: #0e0f13;
+    --xogray: #1f212c;
+    --acewhite: #ecf2f5;
+    --gwhite: #f5f7fa;
+    --gwhite2: #c3cfe2;
+    --gradient: linear-gradient(0deg, var(--gwhite), var(--gwhite2));
+}
+
+body{
+    background: var(--darkblue);
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    color: var(--acewhite);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    
+}
+
+.logo img{
+    width: 15vw;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+.hamburger img{
+    width: 4vw;
+    padding-top: 2rem;
+    padding-right: 2.8rem; 
+}
+
+section{
+    width:100% ;
+    margin-top: 5rem;
+    display: block;
+    height: auto;
+    align-items: center;
+}
+
+section h1{
+    font-size: 2.6rem;
+    padding: 0 2.5rem;
+    width:auto;
+    text-align: justify;
+    
+}
+
+section h1 span{
+    color: var(--lightgreen);
+}
+
+section p{
+    font-size: 3.1vw;
+    text-align: justify;
+    margin: 4vh 0;
+    font-style: italic;
+    padding: 0 2.5rem;
+    
+    
+}
+
+section p span{
+    font-weight: 800;
+}
+
+.container{
+    width: 60vw;
+    height: 4vh;
+    border-radius: 30rem;
+    border: solid var(--gwhite2);
+    margin: 0 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.circle{
+    background-color: #43ea7e;
+    width: 2vw;
+    height: 1vh;
+    border-radius: 5rem;
+    margin-left: 1rem;
+}
+
+.container p{
+    font-size: 0.5rem;
+    text-align: center;
+    padding-right: 3.5rem;
+    font-style: normal;
+}
+
+.container p span{
+    font-size:0.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.chart{
+    
+}
+
+.chart img{
+   width: 90vw;
+   margin-left: 1.3rem;
+   margin-top: 4rem;
+}
+
+.learn{
+    background: var(--xogray);
+    width:90vw ;
+    height: 4vh;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.learn p{
+    font-size: 0.8rem;
+    font-style: normal;
+    
+}
+
+.learn h2{
+    font-size: 0.7rem;
+    padding: 0 1rem;
+    color: #43ea7e;
+}
+
+
+
+

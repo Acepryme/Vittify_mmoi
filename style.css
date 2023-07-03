@@ -1,0 +1,115 @@
+:root{
+    --darkblue: #000001;
+    --lightgreen: #43ea7e;
+    --gray: #0e0f13;
+    --xogray: #1f212c;
+    --acewhite: #ecf2f5;
+    --gwhite: #f5f7fa;
+    --gwhite2: #c3cfe2;
+    --gradient: linear-gradient(0deg, var(--gwhite), var(--gwhite2));
+}
+
+body{
+    background: var(--darkblue);
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    color: var(--acewhite)
+}
+
+a{
+    text-decoration: none;
+}
+
+.onboarding{
+    display: flex;
+    flex-direction: column;
+    background: var(--darkblue);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 9rem 0;
+    
+}
+
+.logo{
+   max-width: 40vw; width: 40vw;
+    height: auto;
+    align-items: center;
+    
+}
+
+.onboarding h1{
+    padding-top: 6rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.onboarding span{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.onboarding p{
+    padding: 2rem 0;
+    font-size: 0.7rem;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    
+
+   
+}
+
+.para span{
+    font-size: 0.7rem;
+    line-height: 2.5vh;
+    font-weight: 700;
+    text-align:center;
+    padding: 0 1vw;
+}
+
+.next{
+    justify-content: center;
+    display: flex;
+    padding: 5rem 0;
+    
+
+}
+
+button{
+    width:75vw ;
+    height:6vh;
+    display: flex;
+    justify-content: space-between;
+    background: var(--acewhite);
+    align-items: center;
+    border-radius: 20rem;
+}
+
+button img{
+    width: 9vw;
+    padding-left:.6rem;
+}
+
+.next p{
+    padding-right: 3.3rem;
+    font-size: 1.1rem;
+    
+}
+
+
+
